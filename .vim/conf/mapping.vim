@@ -114,4 +114,3 @@ nnoremap <F10> :qa<CR>
 inoremap <F10> <esc>:qa<CR>
 vnoremap <F10> <esc>:qa<CR>
 
-nmap <F9> :VSTreeExplore<cr>

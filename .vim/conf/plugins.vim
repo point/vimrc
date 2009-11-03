@@ -71,3 +71,4 @@ let treeExplNoList=1
 " disable autotag.vim. Try later :)
 let autotagDisabled=1
 
+let NERDTreeMapActivateNode='<CR>'

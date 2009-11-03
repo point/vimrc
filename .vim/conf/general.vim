@@ -90,3 +90,10 @@ set smarttab
 set ruler
 
 set tags=./tags
+" The completion dictionary is provided by Rasmus:
+" http://lerdorf.com/funclist.txt
+" setlocal dictionary+=~/.vim/dic/funclist.txt
+set dictionary+=~/.vim/dic/phpfunclist.txt
+set dictionary+=~/.vim/dic/phpproto.txt
+" Use the dictionary completion
+set complete-=k complete+=k
