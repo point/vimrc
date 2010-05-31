@@ -36,10 +36,10 @@ imap <C-Left> <ESC>:tabprevious<cr>
 nmap <C-Right> :tabnext<cr>
 imap <C-Right> <ESC>:tabnext<cr>
 
-nmap <Ctrl-Up> <C-W>k<C-W>_ " окно вверх
-imap <Ctrl-Up> <Esc><C-W>k<C-W>_a " окно вверх
-nmap <Ctrl-Down> <C-W>j<C-W>_ " окно вниз
-imap <Ctrl-Down> <Esc><C-W>j<C-W>_a " окно вниз
+nmap <C-Up> <C-W>k<C-W>_ " окно вверх
+imap <C-Up> <Esc><C-W>k<C-W>_a " окно вверх
+nmap <C-Down> <C-W>j<C-W>_ " окно вниз
+imap <C-Down> <Esc><C-W>j<C-W>_a " окно вниз
 
 " <<< Умный Home и End >>>
 " see plugins.vim
@@ -113,4 +113,5 @@ vnoremap <F9> <esc>zc<cr>v
 nnoremap <F10> :qa<CR>
 inoremap <F10> <esc>:qa<CR>
 vnoremap <F10> <esc>:qa<CR>
+
 
