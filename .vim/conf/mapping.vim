@@ -89,9 +89,9 @@ vnoremap <C-F3> <ESC>:source ~/.vim/lastSession.vim<cr>v
 nmap <F4> :source ~/.vim/lastSession.vim<cr>
 
 " F5 open explorer in current window
-nnoremap <F5> :Ex<cr>
-inoremap <F5> <esc>:Ex<cr>i
-vnoremap <F5> <esc>:Ex<cr>
+nmap <F5> :Ex<cr>
+imap <F5> <esc>:Ex<cr>i
+vmap <F5> <esc>:Ex<cr>
 
 set pastetoggle=<F6>
 

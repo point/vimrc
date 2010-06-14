@@ -72,3 +72,8 @@ let treeExplNoList=1
 let autotagDisabled=1
 
 let NERDTreeMapActivateNode='<CR>'
+
+
+" Conque Term
+let g:ConqueTerm_TERM = 'xterm'
+

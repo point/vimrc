@@ -69,8 +69,8 @@ set foldmethod=marker
 
 " Search
 set incsearch 	" Показывает соответствие шаблону поиска во время набора шаблона.
-set ignorecase 	" Не учитывает регистр при поиске 
-
+"set ignorecase 	" Не учитывает регистр при поиске 
+set smartcase   "case-sensitive if search contains an uppercase character
 
 "Строка статуса: режим, команда(надобранная), положение курсора в файле
 set showmode
@@ -85,6 +85,9 @@ set wildmenu                    " Включает меню автодополн
 set wildignore=*~,.svn*,*.bak   " Список исключений
 "set wildmode=list,full          " Режим отображения вариантов
 set wildcharm=<Tab>             " ??
+"If you like tcsh's autolist completion, you can use the 'wildmode' option to
+"	emulate it.  For example, this mimics autolist=ambiguous:
+set wildmode=longest,list
 
 set smarttab
 set ruler
