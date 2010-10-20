@@ -69,7 +69,7 @@ set foldmethod=marker
 
 " Search
 set incsearch 	" Показывает соответствие шаблону поиска во время набора шаблона.
-"set ignorecase 	" Не учитывает регистр при поиске 
+set ignorecase 	" Не учитывает регистр при поиске 
 set smartcase   "case-sensitive if search contains an uppercase character
 
 "Строка статуса: режим, команда(надобранная), положение курсора в файле
