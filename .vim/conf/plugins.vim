@@ -77,3 +77,5 @@ let NERDTreeMapActivateNode='<CR>'
 " Conque Term
 let g:ConqueTerm_TERM = 'xterm'
 
+" PIV
+let g:DisableAutoPHPFolding = 1
